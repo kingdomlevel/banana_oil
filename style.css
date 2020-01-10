@@ -63,3 +63,26 @@ body {
 .review-quote {
     font-style: italic;
 }
+
+/* MOBILE: */
+@media only screen and (max-width: 780px){
+    body {
+        background-size: 180vh;
+        background-position-x: center;
+        height: 600vh;    
+        background-repeat: space;
+
+    }
+
+    #bio {
+        width: 80%;
+    }
+
+    #contact {
+        font-size: 12pt;
+    }
+
+    #logo {
+        width: 400vh;
+    }
+}
